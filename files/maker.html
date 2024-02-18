@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruddi Maker</title>
+</head>
+<body>
+    <main>
+        <section id="recipes">
+            <h2>Recipe Maker</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" name="recipe-name" required>
+                
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+                
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" name="instructions" rows="4" required></textarea>
+                
+                <button type="submit">Create Recipe</button>
+            </form>
+            <div id="recipe-list">
+                <!-- Recipes will be displayed here -->
+            </div>
+        </section>  
+    </main>
+</body>
+</html>
